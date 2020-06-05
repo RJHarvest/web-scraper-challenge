@@ -28,7 +28,7 @@ The challenge is to scrape quotes off the many different website design styles. 
 
 1. Scraping the default website
 
-Sample csv file [here](default.csv)
+Sample csv file [here](csv/default.csv)
 
 ```bash
 python3 default.py
