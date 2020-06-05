@@ -2,6 +2,10 @@
 
 The challenge is to scrape quotes off the many different website design styles. It is based on the website http://toscrape.com/ which allows users to freely scrape its website to learn and challenge themselves.
 
+The scraper will extract the quote and the author and write it to a csv file.
+
+Sample csv file [here](quotes.csv)
+
 ### Website styles
 
 - Default: Simple website with microdata and pagination
@@ -23,13 +27,19 @@ The challenge is to scrape quotes off the many different website design styles. 
 
 - Python 3.6+
 - BeautifulSoup
+- Pandas
 
 ## Usage
 
 1. Scraping the default website
 
-Sample csv file [here](csv/default.csv)
-
 ```bash
 python3 default.py
 ```
+
+2. Scraping the infinite scrolling website
+
+```bash
+python3 scroll.py
+```
+

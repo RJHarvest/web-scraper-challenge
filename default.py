@@ -20,11 +20,11 @@ def main():
         all_quotes.extend(quotes)
         all_authors.extend(authors)
 
-    quote_data = pd.DataFrame({
+    df = pd.DataFrame({
         'quotes': all_quotes,
         'authors': all_authors
     })
-    quote_data.to_csv('csv/default.csv', index=False)
+    df.to_csv('quotes.csv', index=False)
 
 if __name__ == '__main__':
     main()
